@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\HTTPServerClient\Server\bin\Debug\Server.exe.config
+C:\Users\User\source\repos\HTTPServerClient\Server\bin\Debug\Server.exe
+C:\Users\User\source\repos\HTTPServerClient\Server\bin\Debug\Server.pdb
+C:\Users\User\source\repos\HTTPServerClient\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\HTTPServerClient\Server\obj\Debug\Server.exe
+C:\Users\User\source\repos\HTTPServerClient\Server\obj\Debug\Server.pdb
+C:\Users\User\source\repos\HTTPServerClient\Server\obj\Debug\Server.csprojAssemblyReference.cache
