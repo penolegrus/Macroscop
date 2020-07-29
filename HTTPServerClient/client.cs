@@ -71,6 +71,11 @@ namespace HTTPServerClient
 
                                     message = builder.ToString();
                                     Console.WriteLine("Сервер: {0}", message);  
+                                    if(message.Contains("Превышено количество обрабатываемых запросов"))
+                                    {
+                                        Console.WriteLine("Превышен предел запросов, ожидаем секунду, чтобы продолжить");
+                                        Thread.Sleep(1000);
+                                    }
                                 }
                             }
                            

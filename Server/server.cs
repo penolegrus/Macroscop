@@ -58,9 +58,10 @@ namespace Server
         }
 
 
-
+      
         public void Process()
-        {           
+        {
+           
              mai();
             NetworkStream stream = null;            
             try
@@ -73,10 +74,11 @@ namespace Server
                     _counter++; //счетчик запросов
                     if(_counter>zapros)
                     {
-                        Console.WriteLine("Превышено количетсво обрабатываемых запросов: {0} запросов, допустимо {1} запросов", _counter,zapros);
+                        Console.WriteLine("Превышено количество обрабатываемых запросов: {0} запросов, допустимо {1} запросов", _counter,zapros);
+                       
                         Thread.Sleep(2000);
-                       // Console.ReadKey();
-                        break;
+                        // Console.ReadKey();
+                        
                     }
                     // получаем сообщение
                     StringBuilder builder = new StringBuilder();
